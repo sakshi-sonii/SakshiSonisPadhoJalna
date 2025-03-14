@@ -54,3 +54,4 @@ C:\Users\mgson\Desktop\SakshiSoni\QuizApi\obj\Debug\net8.0\refint\QuizApi.dll
 C:\Users\mgson\Desktop\SakshiSoni\QuizApi\obj\Debug\net8.0\QuizApi.pdb
 C:\Users\mgson\Desktop\SakshiSoni\QuizApi\obj\Debug\net8.0\QuizApi.genruntimeconfig.cache
 C:\Users\mgson\Desktop\SakshiSoni\QuizApi\obj\Debug\net8.0\ref\QuizApi.dll
+C:\Users\mgson\Desktop\SakshiSoni\QuizApi\obj\Debug\net8.0\QuizApi.sourcelink.json
