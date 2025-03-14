@@ -1,1 +1,40 @@
-[]
+[
+  {
+    "Id": 1,
+    "TestId": 2,
+    "StudentId": 3,
+    "Score": 0,
+    "Total": 2,
+    "Questions": [
+      {
+        "QuestionId": 0,
+        "SelectedOptionIndex": 3,
+        "IsCorrect": false
+      },
+      {
+        "QuestionId": 0,
+        "SelectedOptionIndex": 2,
+        "IsCorrect": false
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "TestId": 1,
+    "StudentId": 3,
+    "Score": 2,
+    "Total": 2,
+    "Questions": [
+      {
+        "QuestionId": 1,
+        "SelectedOptionIndex": 1,
+        "IsCorrect": true
+      },
+      {
+        "QuestionId": 2,
+        "SelectedOptionIndex": 1,
+        "IsCorrect": true
+      }
+    ]
+  }
+]

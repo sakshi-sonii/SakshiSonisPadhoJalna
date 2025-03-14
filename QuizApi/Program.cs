@@ -90,7 +90,6 @@ if (app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
     app.UseSwagger();
     app.UseSwaggerUI();
-    // Skip HTTPS redirection in development
 }
 else
 {
