@@ -85,15 +85,18 @@ builder.Services.AddScoped<ExcelParserService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
     app.UseSwagger();
     app.UseSwaggerUI();
+    // Skip HTTPS redirection in development
+}
+else
+{
+    app.UseHttpsRedirection(); // Enable only in production
 }
 
-app.UseHttpsRedirection();
 app.UseCors("AllowAll");
 app.UseAuthentication();
 app.UseAuthorization();
