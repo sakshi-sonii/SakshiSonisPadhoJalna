@@ -1,9 +1,9 @@
 using Microsoft.IdentityModel.Tokens;
+using QuizApi.Data;
 using QuizApi.Models;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using QuizApi.Data; 
 
 namespace QuizApi.Services
 {
